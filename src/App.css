@@ -1,0 +1,19 @@
+.App {
+  text-align: center;
+}
+
+.parallax2 {
+  /* The image used */
+  background-image: url('/images/js.png');
+  border-left: 2px solid lightgrey;
+  margin-left: 40px;
+  /* Full height */
+  height: 500px;
+  border-left: 2;
+  width: 100%;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  /*background-size: cover;*/
+}

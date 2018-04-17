@@ -1,0 +1,110 @@
+.video-text {
+	width: 100%;
+	height: 100vh;
+	padding-top: 15%;
+	font-size: 60px;
+	color: white;
+	text-align: center;
+	text-shadow: 2px 2px 8px #000000;
+}
+
+.iframe-wrapper-front {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: radial-gradient(
+		circle,
+		rgba(0, 0, 0, 0.4),
+		rgba(0, 0, 0, 0.8),
+		rgba(0, 0, 0, 1)
+	);
+	z-index: -1;
+}
+
+.iframe-wrapper {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: -2;
+	pointer-events: none;
+	overflow: hidden;
+}
+
+.iframe-wrapper iframe {
+	width: 100vw;
+	height: 56.25vw; /* Given a 16:9 aspect ratio, 9/16*100 = 56.25 */
+	min-height: 100vh;
+	min-width: 177.77vh; /* Given a 16:9 aspect ratio, 16/9*100 = 177.77 */
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.opacity {
+	opacity: 0.6;
+	position: absolute;
+	top: 70%;
+	width: 100%;
+	text-align: center;
+}
+
+.opacity:hover {
+	opacity: 1;
+}
+
+.slidingVertical {
+	top: 40%;
+	left: 0;
+	display: inline;
+	text-indent: 8px;
+	width: 100%;
+	animation: topToBottom 13.5s linear infinite 0s;
+	color: white;
+	opacity: 0;
+	overflow: hidden;
+	position: absolute;
+}
+
+.slidingVertical:nth-child(2) {
+	animation-delay: 3.5s;
+}
+.slidingVertical:nth-child(3) {
+	animation-delay: 7s;
+}
+
+.slidingVertical:nth-child(4) {
+	animation-delay: 10.5s;
+}
+
+@keyframes topToBottom {
+	0% {
+		opacity: 0;
+	}
+	5% {
+		opacity: 0;
+		transform: translateY(-50px);
+	}
+	10% {
+		opacity: 1;
+		transform: translateY(0px);
+	}
+	25% {
+		opacity: 1;
+		transform: translateY(0px);
+	}
+	30% {
+		opacity: 0;
+		transform: translateY(50px);
+	}
+	80% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 0;
+	}
+}
