@@ -6,6 +6,7 @@ import Skills from './Skills.js';
 import Portfolio from './Portfolio.js';
 import Resume from './Resume.js';
 import Video from './Video.js';
+import Footer from './Footer.js';
 
 class App extends Component {
   render() {
@@ -20,6 +21,7 @@ class App extends Component {
         <Portfolio />
         <hr className="container" />
         <Resume />
+        <Footer />
       </div>
     );
   }

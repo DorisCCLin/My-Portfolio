@@ -12,7 +12,26 @@ class Skills extends Component {
 				}}
 			>
 				<div className="animated fadeInUp" id="skills">
-					<h5>Skills</h5>
+					<div className="row">
+						<div className="col s5" />
+						<div className="col s2">
+							<h5
+								style={{
+									width: '50%',
+									textAlign: 'center',
+									borderTop: '3px solid darkturquoise',
+									paddingTop: '20px',
+									fontSize: '20px',
+									fontFamily: "'Oswald', sans-serif",
+									fontWeight: '600',
+									marginBottom: '30px'
+								}}
+							>
+								SKILLS
+							</h5>
+						</div>
+						<div className="col s5" />
+					</div>
 					<div className="row">
 						<img
 							src="/images/css.png"

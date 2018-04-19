@@ -16,11 +16,9 @@ class Video extends Component {
 				</div>
 				<div className="iframe-wrapper-front" />
 				<div className="video-text">
-					<div className="slidingVertical">Hi! I am Doris,</div>
-					<div className="slidingVertical">I am a web developer.</div>
-					<div className="slidingVertical">
-						I was also a filmmaker
-					</div>
+					<div className="slidingVertical">Hi! I am Doris</div>
+					<div className="slidingVertical">I am a web developer</div>
+					<div className="slidingVertical">I am also a filmmaker</div>
 					<div className="slidingVertical">
 						I'd love to have a chat with you
 					</div>

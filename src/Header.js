@@ -6,32 +6,54 @@ class Header extends Component {
 		return (
 			<div class="navbar">
 				<nav
+					className="animated fadeInUp"
 					style={{
 						backgroundColor: 'rgba(0,0,0,0)',
-						borderBottom: '0.5px solid grey'
+						height: '100%'
 					}}
 				>
 					<div class="nav-wrapper">
 						<a
 							href="/"
 							class="brand-logo"
-							style={{ marginLeft: '20px', fontSize: '30px' }}
+							style={{
+								marginLeft: '20px',
+								marginTop: '10px'
+							}}
 						>
-							DORIS CHIACHING LIN
+							<img
+								src="images/logo.png"
+								style={{ width: '80px' }}
+								className="animated fadeInUp"
+							/>
 						</a>
 						<ul
 							id="nav-mobile"
 							class="right hide-on-med-and-down"
-							style={{ marginRight: '20px', fontSize: '15px' }}
+							style={{
+								marginRight: '20px',
+								marginTop: '15px'
+							}}
 						>
 							<li>
-								<a href="#about">About</a>
+								<a className="menu" href="#about">
+									about
+								</a>
 							</li>
 							<li>
-								<a href="#skills">Skills</a>
+								<a className="menu" href="#skills">
+									skills
+								</a>
 							</li>
 							<li>
-								<a href="#resume">Resume</a>
+								<a className="menu" href="#resume">
+									resume
+								</a>
+							</li>
+							<li>
+								<a className="menu" href="#contact">
+									contact
+								</a>
 							</li>
 						</ul>
 					</div>

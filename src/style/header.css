@@ -1,1 +1,19 @@
+.menu {
+	font-family: 'Oswald', sans-serif;
+	font-size: 16px;
+	font-weight: 300;
+	letter-spacing: 0.2px;
+}
 
+.menu::after {
+	content: '';
+	display: block;
+	width: 0;
+	height: 2px;
+	border-top: 3px solid darkturquoise;
+	transition: width 0.3s;
+}
+
+.menu:hover::after {
+	width: 100%;
+}
