@@ -189,6 +189,15 @@ class Resume extends Component {
 							</div>
 						</div>
 					</div>
+					<div style={{ textAlign: 'center' }}>
+						<a
+							href="/files/DorisCCLIn_Resume2018_APR_web.pdf"
+							class="waves-effect waves-light btn-large darkturquoise"
+							style={{ backgroundColor: 'darkturquoise' }}
+						>
+							Full Resume
+						</a>
+					</div>
 				</div>
 			</div>
 		);
