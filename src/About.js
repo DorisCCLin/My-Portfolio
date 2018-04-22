@@ -24,19 +24,31 @@ class About extends Component {
 							>
 								ABOUT
 							</h5>
+							<div
+								style={{
+									backgroundImage: "url('/images/doris.jpg')",
+									width: '150px',
+									height: '150px',
+									borderRadius: '50%',
+									backgroundColor: 'red',
+									backgroundSize: 'cover',
+									backgroundPosition: 'center',
+									marginTop: '50px'
+								}}
+							/>
 						</div>
 						<div className="col s5" />
 					</div>
 
 					<div
 						style={{
-							fontSize: '14px',
+							fontSize: '15px',
 							color: 'dimgrey',
 							fontWeight: 'lighter'
 						}}
 					>
 						<p>
-							I am a full stack engineer with strong design and
+							I am a software engineer with strong design and
 							front-end development skills. Recently I’m
 							participating Web Development Intensive Coding
 							Bootcamp at New York Code + Design Academy to

@@ -26,7 +26,7 @@ class Portfolio extends Component {
 									marginBottom: '30px'
 								}}
 							>
-								PORTFOLIO
+								PROJECTS
 							</h5>
 						</div>
 						<div className="col s5" />

@@ -20,7 +20,7 @@ class Video extends Component {
 					<div className="slidingVertical">I am a web developer</div>
 					<div className="slidingVertical">I am also a filmmaker</div>
 					<div className="slidingVertical">
-						I'd love to have a chat with you
+						I'd love to have a chat with you - doriscclin@gmail.com
 					</div>
 
 					<div className="opacity">
